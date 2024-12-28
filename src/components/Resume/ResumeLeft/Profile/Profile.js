@@ -1,15 +1,22 @@
-import React from 'react'
+import React from "react";
 
 function ProfileRS() {
-    return (
-        <section className="profileRS sectionRS" id="profile">
-        <h2 className="sectionRS-title text-h2">Profile</h2>
-        <p className="profileRS__description">
-        I’m a Front-end developer with nearly a year of self-study experience in building web application (ReactJS). I love learning new technologies and building valuable application that helps others with their work. I’m considered a team-player because I like to help other and tend to work well within the group. My goal is to be a good Front-end developer, and possibly a full stack web developer.
-        </p>
-      </section>
-      
-    )
+  return (
+    <section className="profileRS sectionRS" id="profile">
+      <h2 className="sectionRS-title text-h2">Profile</h2>
+      <p className="profileRS__description">
+        Experienced Front-End Developer with 3+ years of expertise in building
+        high-performance web applications using cutting-edge technologies.
+        Expertise in ReactJS, Next.js, Vue.js, Astro, and other modern
+        frameworks. Passionate about exploring new technologies and contributing
+        to open-source projects. A friendly and enthusiastic team player who
+        thrives in collaborative environments, always eager to contribute to
+        achieving the best possible outcomes. Driven by a constant desire to
+        learn and grow, I continuously seek new challenges to further develop my
+        skills.
+      </p>
+    </section>
+  );
 }
 
-export default ProfileRS
+export default ProfileRS;

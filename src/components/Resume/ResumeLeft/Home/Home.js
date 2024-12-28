@@ -1,11 +1,8 @@
 import React from "react";
-import me from "../../../../img/me.png";
-import {clickGene} from "../../../Download/downloadCV"
-import pdf from "../../../Download/hohuynhdung-cv.pdf"
-
+import { clickGene } from "../../../Download/downloadCV";
+import pdf from "../../../Download/hohuynhdung-cv.pdf";
 
 function HomeRS(props) {
- 
   const selectTheme = () => {
     // Const
     const themeButton = document.getElementById("theme-button");
@@ -40,11 +37,15 @@ function HomeRS(props) {
     <section className="homeRS" id="home">
       <div className="homeRS__container sectionRS bd-gridRS">
         <div className="homeRS__data bd-gridRS">
-          <img src={me} alt="avt" className="homeRS__img" />
+          <img src='/img/me.png' alt="avt" className="homeRS__img" />
           <h1 className="homeRS__title text-h1">HỒ HUỲNH DŨNG</h1>
           <h3 className="homeRS__profession text-h3">Front End Developer</h3>
           <div>
-            <a href={pdf} download="hohuynhdung" className="homeRS__button-movil">
+            <a
+              href={pdf}
+              download="hohuynhdung"
+              className="homeRS__button-movil"
+            >
               Download
             </a>
           </div>

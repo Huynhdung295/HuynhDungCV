@@ -1,6 +1,6 @@
 const dataSocial = [
     {
-        href:"www.facebook.com/hhdungfed295",
+        href:"https://www.facebook.com/hhdungfed295",
         icon: "bx bxl-facebook-circle socialRS__icon",
         name: "@hhdungfed295" 
     },

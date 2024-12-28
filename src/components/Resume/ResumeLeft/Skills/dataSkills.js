@@ -54,6 +54,24 @@ const dataSkillsLeft = [
         iconSkill:"bx bx-label skill-icon",
         nameSkill: "ExpressJS"
     },
+    {
+        id:10,
+        dotSkill:"",
+        iconSkill:"bx bx-label skill-icon",
+        nameSkill: "Supabase"
+    },
+    {
+        id:11,
+        dotSkill:"",
+        iconSkill:"bx bx-label skill-icon",
+        nameSkill: "NextJS"
+    },
+    {
+        id:12,
+        dotSkill:"",
+        iconSkill:"bx bx-label skill-icon",
+        nameSkill: "Web3"
+    },
 ];
 const dataSkillsRight = [
     {
@@ -106,6 +124,12 @@ const dataSkillsRight = [
     },
     {
         id:9,
+        dotSkill:"",
+        iconSkill:"bx bxl-vuejs skill-icon" ,
+        nameSkill: "VueJS"
+    },
+    {
+        id:10,
         dotSkill:"",
         iconSkill:"bx bx-label skill-icon" ,
         nameSkill: "Etc."

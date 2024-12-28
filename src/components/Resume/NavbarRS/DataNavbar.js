@@ -12,7 +12,7 @@ const dataNavbar = [
     {
         navTitle:"Education",
         navHref: "#education",
-        navIcon: "bx bx-facebook navRS__icon"
+        navIcon: "bx bx-book navRS__icon"
     },
     {
         navTitle:"Skills",
@@ -32,7 +32,7 @@ const dataNavbar = [
     {
         navTitle:"References",
         navHref: "#references",
-        navIcon: "bx bx-external navRS__icon"
+        navIcon: "bx bxl-firefox navRS__icon"
     },
     
 ]
